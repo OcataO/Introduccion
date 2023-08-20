@@ -1,1 +1,2 @@
 django == 3.2.6 #4.2.3
+django-environ==0.4.5  #Se instalan los cambios desde cmd->pip install -r requirements.txt
