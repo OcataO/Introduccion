@@ -1,0 +1,6 @@
+Are you sure?
+<form method="POST">   <!--Siempre que se hace un formulario hay que agregar CSRF...-->
+{% csrf_token %}
+{{form}}
+<button type="submit">Delete</button>
+</form>
